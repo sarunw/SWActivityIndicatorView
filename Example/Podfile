@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SWActivityIndicatorView_Example', :exclusive => true do
+  pod "SWActivityIndicatorView", :path => "../"
+end
+
+target 'SWActivityIndicatorView_Tests', :exclusive => true do
+  pod "SWActivityIndicatorView", :path => "../"
+
+  
+end
