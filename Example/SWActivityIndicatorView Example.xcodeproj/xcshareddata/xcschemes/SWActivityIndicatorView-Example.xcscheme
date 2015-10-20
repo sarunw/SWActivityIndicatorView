@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "SWActivityIndicatorView_Example.app"
-               BlueprintName = "SWActivityIndicatorView_Example"
-               ReferencedContainer = "container:SWActivityIndicatorView.xcodeproj">
+               BuildableName = "SWActivityIndicatorView Example.app"
+               BlueprintName = "SWActivityIndicatorView Example"
+               ReferencedContainer = "container:SWActivityIndicatorView Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,27 +29,27 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SWActivityIndicatorView_Tests.xctest"
-               BlueprintName = "SWActivityIndicatorView_Tests"
-               ReferencedContainer = "container:SWActivityIndicatorView.xcodeproj">
+               BuildableName = "SWActivityIndicatorView Example_Example.xctest"
+               BlueprintName = "SWActivityIndicatorView Example_Tests"
+               ReferencedContainer = "container:SWActivityIndicatorView Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SWActivityIndicatorView_Tests.xctest"
-               BlueprintName = "SWActivityIndicatorView_Tests"
-               ReferencedContainer = "container:SWActivityIndicatorView.xcodeproj">
+               BuildableName = "SWActivityIndicatorView Example_Example.xctest"
+               BlueprintName = "SWActivityIndicatorView Example_Tests"
+               ReferencedContainer = "container:SWActivityIndicatorView Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,48 +57,51 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SWActivityIndicatorView_Example.app"
-            BlueprintName = "SWActivityIndicatorView_Example"
-            ReferencedContainer = "container:SWActivityIndicatorView.xcodeproj">
+            BuildableName = "SWActivityIndicatorView Example.app"
+            BlueprintName = "SWActivityIndicatorView Example"
+            ReferencedContainer = "container:SWActivityIndicatorView Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SWActivityIndicatorView_Example.app"
-            BlueprintName = "SWActivityIndicatorView_Example"
-            ReferencedContainer = "container:SWActivityIndicatorView.xcodeproj">
+            BuildableName = "SWActivityIndicatorView Example.app"
+            BlueprintName = "SWActivityIndicatorView Example"
+            ReferencedContainer = "container:SWActivityIndicatorView Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SWActivityIndicatorView_Example.app"
-            BlueprintName = "SWActivityIndicatorView_Example"
-            ReferencedContainer = "container:SWActivityIndicatorView.xcodeproj">
+            BuildableName = "SWActivityIndicatorView Example.app"
+            BlueprintName = "SWActivityIndicatorView Example"
+            ReferencedContainer = "container:SWActivityIndicatorView Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

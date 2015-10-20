@@ -1,0 +1,14 @@
+PODS:
+  - SWActivityIndicatorView (0.1.0)
+
+DEPENDENCIES:
+  - SWActivityIndicatorView (from `../`)
+
+EXTERNAL SOURCES:
+  SWActivityIndicatorView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SWActivityIndicatorView: d4d1fe760e76514b1333e031f9e41eecfeab3720
+
+COCOAPODS: 0.39.0

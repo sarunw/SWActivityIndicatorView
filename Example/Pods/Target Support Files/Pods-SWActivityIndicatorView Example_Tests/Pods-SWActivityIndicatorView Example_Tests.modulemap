@@ -1,0 +1,6 @@
+framework module Pods_SWActivityIndicatorView_Example_Tests {
+  umbrella header "Pods-SWActivityIndicatorView Example_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,18 +7,35 @@
 //
 
 import UIKit
+import SWActivityIndicatorView
 
 class ViewController: UIViewController {
+    @IBOutlet weak var activityIndicatorView: SWActivityIndicatorView!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func didTapStop(sender: AnyObject) {
+        self.activityIndicatorView.stopAnimating()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func didTapChangeLineWidth(sender: AnyObject) {
+        let lineWidth = self.activityIndicatorView.lineWidth
+        if lineWidth == 2 {
+            self.activityIndicatorView.lineWidth = 4
+        } else {
+            self.activityIndicatorView.lineWidth = 2
+        }
     }
-
+    
+    @IBAction func didTapChangeColor(sender: AnyObject) {
+        let color = self.activityIndicatorView.color
+        if color == UIColor.lightGrayColor() {
+            self.activityIndicatorView.color = UIColor.redColor()
+        } else {
+            self.activityIndicatorView.color = UIColor.lightGrayColor()
+        }
+    }
+    
+    @IBAction func didTapStart(sender: AnyObject) {
+        self.activityIndicatorView.startAnimating()
+    }
 }
 

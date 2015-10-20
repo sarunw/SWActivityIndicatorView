@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Prd-1T-cjX">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SWActivityIndicatorView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,106 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NUO-aN-dgc" customClass="SWActivityIndicatorView" customModule="SWActivityIndicatorView">
+                                <rect key="frame" x="251" y="276" width="99" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="s8d-hV-Fqi"/>
+                                    <constraint firstAttribute="width" constant="99" id="sPg-Bc-3ot"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autoStartAnimating" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cI4-S7-r3R">
+                                <rect key="frame" x="358" y="285" width="32" height="30"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="didTapStop:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5fL-I1-YvU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbT-8R-E58">
+                                <rect key="frame" x="209" y="286" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="didTapStart:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cLd-lJ-VhE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lId-Ak-hIb">
+                                <rect key="frame" x="256" y="238" width="94" height="30"/>
+                                <state key="normal" title="Change Color"/>
+                                <connections>
+                                    <action selector="didTapChangeColor:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nFj-yd-hap"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDv-Cn-o3C">
+                                <rect key="frame" x="238" y="340" width="131" height="30"/>
+                                <state key="normal" title="Change Line Width"/>
+                                <connections>
+                                    <action selector="didTapChangeLineWidth:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G1o-jo-K58"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jDv-Cn-o3C" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="2wV-2G-dCt"/>
+                            <constraint firstItem="lId-Ak-hIb" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="4Wt-UN-S7D"/>
+                            <constraint firstItem="NUO-aN-dgc" firstAttribute="centerY" secondItem="MbT-8R-E58" secondAttribute="centerY" id="81V-fb-Ovd"/>
+                            <constraint firstItem="NUO-aN-dgc" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Ga4-Qs-ys6"/>
+                            <constraint firstItem="cI4-S7-r3R" firstAttribute="leading" secondItem="NUO-aN-dgc" secondAttribute="trailing" constant="8" id="UF9-hi-eVV"/>
+                            <constraint firstItem="NUO-aN-dgc" firstAttribute="top" secondItem="lId-Ak-hIb" secondAttribute="bottom" constant="8" id="WJn-Jg-nlC"/>
+                            <constraint firstItem="NUO-aN-dgc" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="e1p-qB-ecq"/>
+                            <constraint firstItem="jDv-Cn-o3C" firstAttribute="top" secondItem="NUO-aN-dgc" secondAttribute="bottom" constant="15" id="jFC-Ub-NWv"/>
+                            <constraint firstItem="NUO-aN-dgc" firstAttribute="leading" secondItem="MbT-8R-E58" secondAttribute="trailing" constant="8" id="jde-Jt-TuY"/>
+                            <constraint firstItem="cI4-S7-r3R" firstAttribute="centerY" secondItem="MbT-8R-E58" secondAttribute="centerY" id="pmK-au-ah8"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="JTM-Li-8KV"/>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="NUO-aN-dgc" id="vUk-X1-GRS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1063" y="367"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="8Y5-Uj-ptX">
+            <objects>
+                <viewController id="zWP-1s-oMK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="03C-MX-rgg"/>
+                        <viewControllerLayoutGuide type="bottom" id="DUP-d9-0dK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uug-jm-vXv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="h30-b4-yli"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SoN-kV-I3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1134" y="1070"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="JUt-DJ-X6b">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Prd-1T-cjX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="NEU-IH-Waj">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="Y8B-8E-aSv"/>
+                        <segue destination="zWP-1s-oMK" kind="relationship" relationship="viewControllers" id="sVK-aA-0EF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OI4-Vf-EsM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="375"/>
         </scene>
     </scenes>
 </document>

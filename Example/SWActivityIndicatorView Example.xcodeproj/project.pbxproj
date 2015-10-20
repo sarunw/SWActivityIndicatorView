@@ -14,7 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6A2279C3192AF096954CE874 /* Pods_SWActivityIndicatorView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE3896536F9B61382C4488 /* Pods_SWActivityIndicatorView_Example.framework */; };
-		979A489A7CB76D2A5B88A0EA /* Pods_SWActivityIndicatorView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240A843A672A67BDD5BB296C /* Pods_SWActivityIndicatorView_Tests.framework */; };
+		D1FB0D8A8669AA97A0A809B8 /* Pods_SWActivityIndicatorView_Example_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C9FF1EC94B3D5DAF245F5B /* Pods_SWActivityIndicatorView_Example_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,24 +28,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C9FF1EC94B3D5DAF245F5B /* Pods_SWActivityIndicatorView_Example_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWActivityIndicatorView_Example_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240A843A672A67BDD5BB296C /* Pods_SWActivityIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWActivityIndicatorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2964BA90BC355ED927ED1644 /* Pods-SWActivityIndicatorView Example_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView Example_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView Example_Tests/Pods-SWActivityIndicatorView Example_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		406D411EBB1FD04750FBE597 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		545AA1A29FA4072BE8E8101C /* Pods-SWActivityIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView_Example/Pods-SWActivityIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B3ED2799BEF753FE53D7604 /* Pods-SWActivityIndicatorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView_Tests/Pods-SWActivityIndicatorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* SWActivityIndicatorView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWActivityIndicatorView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* SWActivityIndicatorView Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWActivityIndicatorView Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = SWActivityIndicatorView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* SWActivityIndicatorView Example_Example.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWActivityIndicatorView Example_Example.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6CCE132E874F29FD617C8F39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E52A212857D94525FF14492 /* Pods-SWActivityIndicatorView Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1CE3896536F9B61382C4488 /* Pods_SWActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWActivityIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8552DF595DED4AA0ADDA9FE /* Pods-SWActivityIndicatorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView_Tests/Pods-SWActivityIndicatorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E49D5B7D4A4F80E33539BFB5 /* Pods-SWActivityIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView_Example/Pods-SWActivityIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C454A243255CF5F7AE5CB76A /* Pods-SWActivityIndicatorView Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD569426D0EA16AD155F7212 /* Pods-SWActivityIndicatorView Example_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView Example_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView Example_Tests/Pods-SWActivityIndicatorView Example_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0A92CDF71F894946878D6BC /* SWActivityIndicatorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWActivityIndicatorView.podspec; path = ../SWActivityIndicatorView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				979A489A7CB76D2A5B88A0EA /* Pods_SWActivityIndicatorView_Tests.framework in Frameworks */,
+				D1FB0D8A8669AA97A0A809B8 /* Pods_SWActivityIndicatorView_Example_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +75,7 @@
 			children = (
 				B1CE3896536F9B61382C4488 /* Pods_SWActivityIndicatorView_Example.framework */,
 				240A843A672A67BDD5BB296C /* Pods_SWActivityIndicatorView_Tests.framework */,
+				00C9FF1EC94B3D5DAF245F5B /* Pods_SWActivityIndicatorView_Example_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for SWActivityIndicatorView */,
+				607FACD21AFB9204008FA782 /* Example */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				C337507B4BE975DD56CB88D4 /* Pods */,
@@ -93,13 +95,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* SWActivityIndicatorView_Example.app */,
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
+				607FACD01AFB9204008FA782 /* SWActivityIndicatorView Example.app */,
+				607FACE51AFB9204008FA782 /* SWActivityIndicatorView Example_Example.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for SWActivityIndicatorView */ = {
+		607FACD21AFB9204008FA782 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -109,7 +111,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for SWActivityIndicatorView";
+			name = Example;
 			path = SWActivityIndicatorView;
 			sourceTree = "<group>";
 		};
@@ -151,10 +153,10 @@
 		C337507B4BE975DD56CB88D4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E49D5B7D4A4F80E33539BFB5 /* Pods-SWActivityIndicatorView_Example.debug.xcconfig */,
-				545AA1A29FA4072BE8E8101C /* Pods-SWActivityIndicatorView_Example.release.xcconfig */,
-				B8552DF595DED4AA0ADDA9FE /* Pods-SWActivityIndicatorView_Tests.debug.xcconfig */,
-				5B3ED2799BEF753FE53D7604 /* Pods-SWActivityIndicatorView_Tests.release.xcconfig */,
+				C454A243255CF5F7AE5CB76A /* Pods-SWActivityIndicatorView Example.debug.xcconfig */,
+				8E52A212857D94525FF14492 /* Pods-SWActivityIndicatorView Example.release.xcconfig */,
+				2964BA90BC355ED927ED1644 /* Pods-SWActivityIndicatorView Example_Tests.debug.xcconfig */,
+				CD569426D0EA16AD155F7212 /* Pods-SWActivityIndicatorView Example_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,29 +164,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* SWActivityIndicatorView_Example */ = {
+		607FACCF1AFB9204008FA782 /* SWActivityIndicatorView Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView Example" */;
 			buildPhases = (
 				922CDBF2F60EB0029946B586 /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				78388BF5F9A3F802EAF7816C /* Embed Pods Frameworks */,
 				263D20AE58F029267ECD2C11 /* Copy Pods Resources */,
+				4F2703A557F54846833127B8 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SWActivityIndicatorView_Example;
+			name = "SWActivityIndicatorView Example";
 			productName = SWActivityIndicatorView;
-			productReference = 607FACD01AFB9204008FA782 /* SWActivityIndicatorView_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* SWActivityIndicatorView Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* SWActivityIndicatorView_Tests */ = {
+		607FACE41AFB9204008FA782 /* SWActivityIndicatorView Example_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView Example_Tests" */;
 			buildPhases = (
 				FB5E0B2FF0B1B8927B818ABD /* Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -198,9 +200,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = SWActivityIndicatorView_Tests;
+			name = "SWActivityIndicatorView Example_Tests";
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* SWActivityIndicatorView Example_Example.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +211,8 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -221,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SWActivityIndicatorView" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SWActivityIndicatorView Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* SWActivityIndicatorView_Example */,
-				607FACE41AFB9204008FA782 /* SWActivityIndicatorView_Tests */,
+				607FACCF1AFB9204008FA782 /* SWActivityIndicatorView Example */,
+				607FACE41AFB9204008FA782 /* SWActivityIndicatorView Example_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,10 +276,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWActivityIndicatorView_Example/Pods-SWActivityIndicatorView_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		78388BF5F9A3F802EAF7816C /* Embed Pods Frameworks */ = {
+		4F2703A557F54846833127B8 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,7 +291,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWActivityIndicatorView_Example/Pods-SWActivityIndicatorView_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		922CDBF2F60EB0029946B586 /* Check Pods Manifest.lock */ = {
@@ -318,7 +321,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWActivityIndicatorView_Tests/Pods-SWActivityIndicatorView_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWActivityIndicatorView Example_Tests/Pods-SWActivityIndicatorView Example_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DBFD76AB60AC823EF2094BBD /* Copy Pods Resources */ = {
@@ -333,7 +336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWActivityIndicatorView_Tests/Pods-SWActivityIndicatorView_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWActivityIndicatorView Example_Tests/Pods-SWActivityIndicatorView Example_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FB5E0B2FF0B1B8927B818ABD /* Check Pods Manifest.lock */ = {
@@ -376,7 +379,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* SWActivityIndicatorView_Example */;
+			target = 607FACCF1AFB9204008FA782 /* SWActivityIndicatorView Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,6 +425,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -484,31 +488,33 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E49D5B7D4A4F80E33539BFB5 /* Pods-SWActivityIndicatorView_Example.debug.xcconfig */;
+			baseConfigurationReference = C454A243255CF5F7AE5CB76A /* Pods-SWActivityIndicatorView Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWActivityIndicatorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SWActivityIndicatorView-Example";
+				PRODUCT_NAME = "SWActivityIndicatorView Example";
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 545AA1A29FA4072BE8E8101C /* Pods-SWActivityIndicatorView_Example.release.xcconfig */;
+			baseConfigurationReference = 8E52A212857D94525FF14492 /* Pods-SWActivityIndicatorView Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWActivityIndicatorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SWActivityIndicatorView-Example";
+				PRODUCT_NAME = "SWActivityIndicatorView Example";
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8552DF595DED4AA0ADDA9FE /* Pods-SWActivityIndicatorView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2964BA90BC355ED927ED1644 /* Pods-SWActivityIndicatorView Example_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -521,14 +527,15 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWActivityIndicatorView_Example.app/SWActivityIndicatorView_Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "SWActivityIndicatorView Example_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWActivityIndicatorView Example.app/SWActivityIndicatorView Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B3ED2799BEF753FE53D7604 /* Pods-SWActivityIndicatorView_Tests.release.xcconfig */;
+			baseConfigurationReference = CD569426D0EA16AD155F7212 /* Pods-SWActivityIndicatorView Example_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -537,15 +544,16 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWActivityIndicatorView_Example.app/SWActivityIndicatorView_Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "SWActivityIndicatorView Example_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWActivityIndicatorView Example.app/SWActivityIndicatorView Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SWActivityIndicatorView" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SWActivityIndicatorView Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -554,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -563,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView Example_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
