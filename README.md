@@ -1,15 +1,8 @@
 # SWActivityIndicatorView
 
-[![CI Status](http://img.shields.io/travis/Sarun Wongpatcharapakorn/SWActivityIndicatorView.svg?style=flat)](https://travis-ci.org/Sarun Wongpatcharapakorn/SWActivityIndicatorView)
-[![Version](https://img.shields.io/cocoapods/v/SWActivityIndicatorView.svg?style=flat)](http://cocoapods.org/pods/SWActivityIndicatorView)
-[![License](https://img.shields.io/cocoapods/l/SWActivityIndicatorView.svg?style=flat)](http://cocoapods.org/pods/SWActivityIndicatorView)
-[![Platform](https://img.shields.io/cocoapods/p/SWActivityIndicatorView.svg?style=flat)](http://cocoapods.org/pods/SWActivityIndicatorView)
+A simple flat activity indicator view.
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+![alt tag](https://raw.githubusercontent.com/sarunw/SWActivityIndicatorView/master/Documentations/demo.gif)
 
 ## Installation
 
@@ -20,9 +13,39 @@ it, simply add the following line to your Podfile:
 pod "SWActivityIndicatorView"
 ```
 
+You may also quickly try the SWActivityIndicatorView example project with
+
+```ruby
+pod try SWActivityIndicatorView
+```
+
+## Requirements
+
+Requires iOS 8.0+ and ARC.
+
+## Usage
+
+Basic usage
+```swift
+let activityIndicatorView = SWActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+self.view.addSubview(activityIndicatorView)
+activityIndicatorView.startAnimating()
+```
+
+If you use Interface Builder, add a UIView to your interface and set Class to `SWActivityIndicatorView`.
+
+### Customization
+You can use customize SWActivityIndicatorView via property
+```swift
+activityIndicatorView.lineWidth = 2
+activityIndicatorView.autoStartAnimating = true
+activityIndicatorView.hidesWhenStopped = false
+activityIndicatorView.color = UIColor.lightGrayColor()
+```
+
 ## Author
 
-Sarun Wongpatcharapakorn, artwork.th@gmail.com
+[Sarun Wongpatcharapakorn](https://github.com/sarunw) ([@sarunw](https://twitter.com/sarunw))
 
 ## License
 
