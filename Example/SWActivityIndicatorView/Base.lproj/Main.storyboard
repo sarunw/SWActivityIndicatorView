@@ -83,7 +83,7 @@
         <!--Item-->
         <scene sceneID="8Y5-Uj-ptX">
             <objects>
-                <viewController id="zWP-1s-oMK" sceneMemberID="viewController">
+                <viewController id="zWP-1s-oMK" customClass="ManualViewController" customModule="SWActivityIndicatorView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="03C-MX-rgg"/>
                         <viewControllerLayoutGuide type="bottom" id="DUP-d9-0dK"/>

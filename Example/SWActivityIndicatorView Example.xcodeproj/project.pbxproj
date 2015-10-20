@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6A2279C3192AF096954CE874 /* Pods_SWActivityIndicatorView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE3896536F9B61382C4488 /* Pods_SWActivityIndicatorView_Example.framework */; };
+		A081342B1BD62746002389F2 /* ManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081342A1BD62746002389F2 /* ManualViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D1FB0D8A8669AA97A0A809B8 /* Pods_SWActivityIndicatorView_Example_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C9FF1EC94B3D5DAF245F5B /* Pods_SWActivityIndicatorView_Example_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6CCE132E874F29FD617C8F39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8E52A212857D94525FF14492 /* Pods-SWActivityIndicatorView Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example.release.xcconfig"; sourceTree = "<group>"; };
+		A081342A1BD62746002389F2 /* ManualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualViewController.swift; sourceTree = "<group>"; };
 		B1CE3896536F9B61382C4488 /* Pods_SWActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWActivityIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C454A243255CF5F7AE5CB76A /* Pods-SWActivityIndicatorView Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD569426D0EA16AD155F7212 /* Pods-SWActivityIndicatorView Example_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWActivityIndicatorView Example_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWActivityIndicatorView Example_Tests/Pods-SWActivityIndicatorView Example_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A081342A1BD62746002389F2 /* ManualViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -362,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				A081342B1BD62746002389F2 /* ManualViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
