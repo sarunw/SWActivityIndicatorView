@@ -1,17 +1,17 @@
 {
   "name": "SWActivityIndicatorView",
-  "version": "0.1.0",
-  "summary": "A short description of SWActivityIndicatorView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SWActivityIndicatorView",
+  "version": "2.0.0",
+  "summary": "A simple flat activity indicator view.",
+  "homepage": "https://github.com/sarunw/SWActivityIndicatorView",
   "license": "MIT",
   "authors": {
     "Sarun Wongpatcharapakorn": "artwork.th@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SWActivityIndicatorView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/sarunw/SWActivityIndicatorView.git",
+    "tag": "2.0.0"
   },
+  "social_media_url": "https://twitter.com/sarunw",
   "platforms": {
     "ios": "8.0"
   },
@@ -21,5 +21,6 @@
     "SWActivityIndicatorView": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "UIKit"
 }

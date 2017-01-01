@@ -7,139 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DE47C5007A2C0687F6644D5E0CDFD17 /* Pods-SWActivityIndicatorView Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B3A22F9D79B17AA25182C722089D92 /* Pods-SWActivityIndicatorView Example-dummy.m */; };
-		4C0E476751495B6F65D77306499DEDEC /* SWActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803821D0356EDA7CD9074026560E12E /* SWActivityIndicatorView-dummy.m */; };
-		53FA3712F0E45C36ABA0A2362F5CE9DD /* SWActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA271BE128B56B8305416DFC5ADC65 /* SWActivityIndicatorView.swift */; };
-		546DF660E5BE283243906465EE31C599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		584BBCF1045C12FD611C97B2C02CD337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		6E58D62C45B047C368E7881DF023949C /* Pods-SWActivityIndicatorView Example_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE21D3C9383AAA07CB94B19A9BFACA /* Pods-SWActivityIndicatorView Example_Tests-dummy.m */; };
-		8C838AEC138E3B555BC8CCC39B24DF8A /* Pods-SWActivityIndicatorView Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 590D932E614689994A0A53FD47A2DBC5 /* Pods-SWActivityIndicatorView Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F360C414FEFEE051ACC8CA1E094C868 /* Pods-SWActivityIndicatorView Example_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B7DDD674F2E307C2BDB1B11FD246CB /* Pods-SWActivityIndicatorView Example_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B823825EAAF58719F44E28CD8925F5DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		BABF8C2568B9D5E8CDD231316873E8A3 /* SWActivityIndicatorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09436E3BA5C0D5868748E8D2B02B9316 /* SWActivityIndicatorView.bundle */; };
-		E3E3172882208D00FD596A561C52FC3A /* SWActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 091B52896273470081D804B40FD2A118 /* SWActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		008EC2B7B284ADC63B231A065BE93777 /* SWActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C511EE8EAF8A86BE7EC430D0923BE9D5 /* SWActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B2F57C2FF5343436F6B96E41869E8C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		0BA97C650725B1A9ACB48035787C1F85 /* Pods-SWActivityIndicatorView Example_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B7DDD674F2E307C2BDB1B11FD246CB /* Pods-SWActivityIndicatorView Example_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B2A8D7CFD8905E288F58F066109732C /* SWActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE00DD9DA412E1F695E94EA8D8B8C60 /* SWActivityIndicatorView-dummy.m */; };
+		2547A3B9C85CC20FBBABD642E086E88E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		2922B83AE3BEBBABF5171DB60DB1A7AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		4A5DC7A88EEFBA062BEE7A46C8AE16E1 /* SWActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA4C627E5229FB901B48F2185302A9F /* SWActivityIndicatorView.swift */; };
+		52E71F2156E484B292412517DF40B941 /* Pods-SWActivityIndicatorView Example_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE21D3C9383AAA07CB94B19A9BFACA /* Pods-SWActivityIndicatorView Example_Tests-dummy.m */; };
+		686E27FD8E137B628E0456245FA7B5AB /* Pods-SWActivityIndicatorView Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 590D932E614689994A0A53FD47A2DBC5 /* Pods-SWActivityIndicatorView Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C25A4A32D60A677802D50EA5B62FB708 /* Pods-SWActivityIndicatorView Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B3A22F9D79B17AA25182C722089D92 /* Pods-SWActivityIndicatorView Example-dummy.m */; };
+		C48B13E0A72DCC892F956E02C036CE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F87E37D534D7511302FFEC9C1E2418F4 /* SWActivityIndicatorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CADBBFE28AEAF98ED9D2776A8D6C1BA /* SWActivityIndicatorView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		21583F476D5DA557591ACBFECC773E1D /* PBXContainerItemProxy */ = {
+		27137003873CF8B07E1480DCB201AACC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFCFF584725D9627FF22ABC53529F964;
-			remoteInfo = SWActivityIndicatorView;
-		};
-		A75C82C9FBE2CB77401F2447190C7408 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 684348FC23FC57F6C69CA21C5A5CC6D4;
+			remoteGlobalIDString = 9A1548C762B18493829C556F6616532E;
 			remoteInfo = "SWActivityIndicatorView-SWActivityIndicatorView";
 		};
-		B452E8EDF1202E3F8C9A8763A492AA48 /* PBXContainerItemProxy */ = {
+		743FC55127E77A282D4DFB785224517C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFCFF584725D9627FF22ABC53529F964;
+			remoteGlobalIDString = 2E6DEAD7C12FF11AEBCE51ACCF14AB7C;
 			remoteInfo = SWActivityIndicatorView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022F53159EBBD0A042007ED3520AACDB /* Pods-SWActivityIndicatorView Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SWActivityIndicatorView Example.modulemap"; sourceTree = "<group>"; };
+		022F53159EBBD0A042007ED3520AACDB /* Pods-SWActivityIndicatorView Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWActivityIndicatorView Example.modulemap"; sourceTree = "<group>"; };
 		037AD82DE90203FB8A0F719B3F25A0B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		091B52896273470081D804B40FD2A118 /* SWActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
-		09436E3BA5C0D5868748E8D2B02B9316 /* SWActivityIndicatorView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWActivityIndicatorView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1803821D0356EDA7CD9074026560E12E /* SWActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		22959CBBFB0630C9CE0AE98676260642 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34EA271BE128B56B8305416DFC5ADC65 /* SWActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SWActivityIndicatorView.swift; sourceTree = "<group>"; };
-		34EB9AC2CCA8CA289490D22ED86A89D1 /* SWActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		32B28D15F872B3898D814C30FA26359C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CDFDEACA910FAFA09BDB7FFCB57C35 /* SWActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
 		34FC8E3A043C47C7A75079DBC2940209 /* Pods-SWActivityIndicatorView Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWActivityIndicatorView Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		35A25A9D066DD6B3BAA1F20BFEAEDFF2 /* Pods-SWActivityIndicatorView Example_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWActivityIndicatorView Example_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		38C97FE32DBD3EEC0418B4E37DBDD781 /* Pods-SWActivityIndicatorView Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWActivityIndicatorView Example.release.xcconfig"; sourceTree = "<group>"; };
 		3B5BBEF5A9318D45B0ECA2FE45A60035 /* Pods-SWActivityIndicatorView Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWActivityIndicatorView Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B9F2EC8582399A05D5C877924E3E21D /* SWActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 		3FB201806431A9DA2F6A87DBB034E75A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		456364DBEF17F52141DD21C08C6C0CFC /* SWActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		590D932E614689994A0A53FD47A2DBC5 /* Pods-SWActivityIndicatorView Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWActivityIndicatorView Example-umbrella.h"; sourceTree = "<group>"; };
-		5C279B48621FBB91A9425447C14FD81D /* SWActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		5A470E6DDBDD683B0771A382E20BFFD0 /* ResourceBundle-SWActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SWActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		5CADBBFE28AEAF98ED9D2776A8D6C1BA /* SWActivityIndicatorView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SWActivityIndicatorView.bundle; path = SWActivityIndicatorView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A4872528D8B8C192E15DDF2D9CFFCA /* Pods-SWActivityIndicatorView Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWActivityIndicatorView Example-resources.sh"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		62B3A22F9D79B17AA25182C722089D92 /* Pods-SWActivityIndicatorView Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWActivityIndicatorView Example-dummy.m"; sourceTree = "<group>"; };
+		79FAA18910C176F0F142C086DF48D0F9 /* SWActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWActivityIndicatorView.modulemap; sourceTree = "<group>"; };
 		7AFE92379D422C49DE9537B768824682 /* Pods-SWActivityIndicatorView Example_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWActivityIndicatorView Example_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA4C627E5229FB901B48F2185302A9F /* SWActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SWActivityIndicatorView.swift; sourceTree = "<group>"; };
+		7BCC211B24D06785CC3AC1E7843ECBB9 /* Pods_SWActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWActivityIndicatorView_Example.framework; path = "Pods-SWActivityIndicatorView Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA70174EB0691F320C1A8A63FB513D5 /* Pods-SWActivityIndicatorView Example_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWActivityIndicatorView Example_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8062AFB4FEAD3CBF1AEC21769F255694 /* SWActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWActivityIndicatorView.framework; path = SWActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5C9D6739F6815CF66F216F9AB65002 /* Pods-SWActivityIndicatorView Example_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWActivityIndicatorView Example_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F36C8CBFCE81A758BBFB602B879CB6E /* Pods-SWActivityIndicatorView Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWActivityIndicatorView Example-frameworks.sh"; sourceTree = "<group>"; };
-		985F717EE5C305F0AC673875B407A386 /* Pods_SWActivityIndicatorView_Example_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWActivityIndicatorView_Example_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AFE21D3C9383AAA07CB94B19A9BFACA /* Pods-SWActivityIndicatorView Example_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWActivityIndicatorView Example_Tests-dummy.m"; sourceTree = "<group>"; };
 		9E75F221AE413EA1E140D561D08D3939 /* Pods-SWActivityIndicatorView Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWActivityIndicatorView Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A04638DB8A66F7DC5C7EE63FE7FE216A /* SWActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 		A10ED2BF20307D5C97812C8E8684DA61 /* Pods-SWActivityIndicatorView Example_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWActivityIndicatorView Example_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5B7DDD674F2E307C2BDB1B11FD246CB /* Pods-SWActivityIndicatorView Example_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWActivityIndicatorView Example_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A72146D8CFDFCD60F73802936BB8725C /* Pods-SWActivityIndicatorView Example_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWActivityIndicatorView Example_Tests-resources.sh"; sourceTree = "<group>"; };
-		AF44A515CEA69CD6C72E49D1E81F1EC5 /* Pods_SWActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWActivityIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC37EC9D94B6B14BF58A50D0FE7F5469 /* Pods-SWActivityIndicatorView Example_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SWActivityIndicatorView Example_Tests.modulemap"; sourceTree = "<group>"; };
+		AFE00DD9DA412E1F695E94EA8D8B8C60 /* SWActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		C511EE8EAF8A86BE7EC430D0923BE9D5 /* SWActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		C9F8038338043F2D3AA42AA1276A5E54 /* Pods_SWActivityIndicatorView_Example_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWActivityIndicatorView_Example_Tests.framework; path = "Pods-SWActivityIndicatorView Example_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC37EC9D94B6B14BF58A50D0FE7F5469 /* Pods-SWActivityIndicatorView Example_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWActivityIndicatorView Example_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E19FA10A726D31D104BD540965F3D4A /* Frameworks */ = {
+		A51C91AB9F694501B670E37AE3BA45B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B823825EAAF58719F44E28CD8925F5DF /* Foundation.framework in Frameworks */,
+				0B2F57C2FF5343436F6B96E41869E8C2 /* Foundation.framework in Frameworks */,
+				2922B83AE3BEBBABF5171DB60DB1A7AE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62DBE64F1AFBA8E1E1BACDA7C22430BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				584BBCF1045C12FD611C97B2C02CD337 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1D62B5077DDF866432A410FC4C6AD74 /* Frameworks */ = {
+		D8C6197D3F514894B29BFDF605D70110 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC90253068ACFB1781808F2162233704 /* Frameworks */ = {
+		E047D556AD53E209655FFEE1B02BB490 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546DF660E5BE283243906465EE31C599 /* Foundation.framework in Frameworks */,
+				C48B13E0A72DCC892F956E02C036CE31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA208A808009DADA5DF08641D501EB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2547A3B9C85CC20FBBABD642E086E88E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09D2503C610A603FBF7620E624081AA3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF44A515CEA69CD6C72E49D1E81F1EC5 /* Pods_SWActivityIndicatorView_Example.framework */,
-				985F717EE5C305F0AC673875B407A386 /* Pods_SWActivityIndicatorView_Example_Tests.framework */,
-				09436E3BA5C0D5868748E8D2B02B9316 /* SWActivityIndicatorView.bundle */,
-				456364DBEF17F52141DD21C08C6C0CFC /* SWActivityIndicatorView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		16A75E2A119A2752F5A1CD80AB80C95A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				22959CBBFB0630C9CE0AE98676260642 /* Info.plist */,
-				5C279B48621FBB91A9425447C14FD81D /* SWActivityIndicatorView.modulemap */,
-				A04638DB8A66F7DC5C7EE63FE7FE216A /* SWActivityIndicatorView.xcconfig */,
-				1803821D0356EDA7CD9074026560E12E /* SWActivityIndicatorView-dummy.m */,
-				34EB9AC2CCA8CA289490D22ED86A89D1 /* SWActivityIndicatorView-prefix.pch */,
-				091B52896273470081D804B40FD2A118 /* SWActivityIndicatorView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SWActivityIndicatorView";
-			sourceTree = "<group>";
-		};
 		2362804AFB333652ACCC8B0AE7BED1AE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,20 +121,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		257584935C8F8179337E23CC6F2A4D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC211B24D06785CC3AC1E7843ECBB9 /* Pods_SWActivityIndicatorView_Example.framework */,
+				C9F8038338043F2D3AA42AA1276A5E54 /* Pods_SWActivityIndicatorView_Example_Tests.framework */,
+				5CADBBFE28AEAF98ED9D2776A8D6C1BA /* SWActivityIndicatorView.bundle */,
+				8062AFB4FEAD3CBF1AEC21769F255694 /* SWActivityIndicatorView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5182BDE35A06A8C16CFA60686E0877 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				32175403A4C4156BF40C7C85DF95FDB7 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		32175403A4C4156BF40C7C85DF95FDB7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7BA4C627E5229FB901B48F2185302A9F /* SWActivityIndicatorView.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3F9DCA9193B21D2591140B1A0A7079F1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF468505BB1FBF95BE0E5184380AF052 /* SWActivityIndicatorView */,
+				7D19BE03DCB78A6ECEE32300EF4462C5 /* SWActivityIndicatorView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		454DB71F0534C5CD434DE5F25CDB1CB6 /* Pod */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F28390A92F3F90777DCF88A6A3CC7166 /* Classes */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
-			path = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		46DC0E8A25A87638E45EFEE3CECCC59D /* Pods-SWActivityIndicatorView Example */ = {
@@ -183,13 +184,23 @@
 			path = "Target Support Files/Pods-SWActivityIndicatorView Example";
 			sourceTree = "<group>";
 		};
+		7D19BE03DCB78A6ECEE32300EF4462C5 /* SWActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				2B5182BDE35A06A8C16CFA60686E0877 /* Pod */,
+				CB35C3C1ADCCD26BE3994DD2F7DB7301 /* Support Files */,
+			);
+			name = SWActivityIndicatorView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3F9DCA9193B21D2591140B1A0A7079F1 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				09D2503C610A603FBF7620E624081AA3 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				257584935C8F8179337E23CC6F2A4D6E /* Products */,
 				2362804AFB333652ACCC8B0AE7BED1AE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -212,77 +223,103 @@
 			path = "Target Support Files/Pods-SWActivityIndicatorView Example_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CB35C3C1ADCCD26BE3994DD2F7DB7301 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				32B28D15F872B3898D814C30FA26359C /* Info.plist */,
+				5A470E6DDBDD683B0771A382E20BFFD0 /* ResourceBundle-SWActivityIndicatorView-Info.plist */,
+				79FAA18910C176F0F142C086DF48D0F9 /* SWActivityIndicatorView.modulemap */,
+				3B9F2EC8582399A05D5C877924E3E21D /* SWActivityIndicatorView.xcconfig */,
+				AFE00DD9DA412E1F695E94EA8D8B8C60 /* SWActivityIndicatorView-dummy.m */,
+				32CDFDEACA910FAFA09BDB7FFCB57C35 /* SWActivityIndicatorView-prefix.pch */,
+				C511EE8EAF8A86BE7EC430D0923BE9D5 /* SWActivityIndicatorView-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SWActivityIndicatorView";
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		CF468505BB1FBF95BE0E5184380AF052 /* SWActivityIndicatorView */ = {
-			isa = PBXGroup;
-			children = (
-				454DB71F0534C5CD434DE5F25CDB1CB6 /* Pod */,
-				16A75E2A119A2752F5A1CD80AB80C95A /* Support Files */,
-			);
-			name = SWActivityIndicatorView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F28390A92F3F90777DCF88A6A3CC7166 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				34EA271BE128B56B8305416DFC5ADC65 /* SWActivityIndicatorView.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1DDD2B67F80CB81CFE30E5DAA005A8D5 /* Headers */ = {
+		5FD5F3F021D568FA98CDF25CBD2864E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C838AEC138E3B555BC8CCC39B24DF8A /* Pods-SWActivityIndicatorView Example-umbrella.h in Headers */,
+				008EC2B7B284ADC63B231A065BE93777 /* SWActivityIndicatorView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		506DAC6FD0FDA4116947F75C2ED40259 /* Headers */ = {
+		6589E8CEE75393E88B2A690663D19F74 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E3172882208D00FD596A561C52FC3A /* SWActivityIndicatorView-umbrella.h in Headers */,
+				686E27FD8E137B628E0456245FA7B5AB /* Pods-SWActivityIndicatorView Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1D37D6B94C69842AE7A8E0D6CE9B008 /* Headers */ = {
+		A665437CC7045E729E11696EACE8276E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F360C414FEFEE051ACC8CA1E094C868 /* Pods-SWActivityIndicatorView Example_Tests-umbrella.h in Headers */,
+				0BA97C650725B1A9ACB48035787C1F85 /* Pods-SWActivityIndicatorView Example_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		684348FC23FC57F6C69CA21C5A5CC6D4 /* SWActivityIndicatorView-SWActivityIndicatorView */ = {
+		2E6DEAD7C12FF11AEBCE51ACCF14AB7C /* SWActivityIndicatorView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9279551CD03B612D561AB236766A016B /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView-SWActivityIndicatorView" */;
+			buildConfigurationList = 3AFB5A87CC918CD5EA48A5CC9B7CFE66 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView" */;
 			buildPhases = (
-				D5D797FF93144E95583E9D8F3E26A07F /* Sources */,
-				A1D62B5077DDF866432A410FC4C6AD74 /* Frameworks */,
-				6EE5A8DD51F5C776EA5489E2D9742A82 /* Resources */,
+				21AF336E69D942B3FE6F4ADA60DC5327 /* Sources */,
+				A51C91AB9F694501B670E37AE3BA45B0 /* Frameworks */,
+				2173FF26D387FB1DA642B4077B20F7CB /* Resources */,
+				5FD5F3F021D568FA98CDF25CBD2864E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEDFB979E3C846F07940D98A8C4AEFB2 /* PBXTargetDependency */,
+			);
+			name = SWActivityIndicatorView;
+			productName = SWActivityIndicatorView;
+			productReference = 8062AFB4FEAD3CBF1AEC21769F255694 /* SWActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		328DDD0BFCC08A5499CE2CD41AECF5D4 /* Pods-SWActivityIndicatorView Example_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDD850369DFAF8EE0A63AEEAA709635 /* Build configuration list for PBXNativeTarget "Pods-SWActivityIndicatorView Example_Tests" */;
+			buildPhases = (
+				730C0F7D8D7ED5B8F93F0DFFA8CC8BDC /* Sources */,
+				E047D556AD53E209655FFEE1B02BB490 /* Frameworks */,
+				A665437CC7045E729E11696EACE8276E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SWActivityIndicatorView Example_Tests";
+			productName = "Pods-SWActivityIndicatorView Example_Tests";
+			productReference = C9F8038338043F2D3AA42AA1276A5E54 /* Pods_SWActivityIndicatorView_Example_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A1548C762B18493829C556F6616532E /* SWActivityIndicatorView-SWActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9132F37EBCEDC13458E01F1EDEED26 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView-SWActivityIndicatorView" */;
+			buildPhases = (
+				2F272251F1F473B32B64E86F70217619 /* Sources */,
+				D8C6197D3F514894B29BFDF605D70110 /* Frameworks */,
+				63B64FC35BE0B9DE4B3B460F0078BB96 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -290,62 +327,25 @@
 			);
 			name = "SWActivityIndicatorView-SWActivityIndicatorView";
 			productName = "SWActivityIndicatorView-SWActivityIndicatorView";
-			productReference = 09436E3BA5C0D5868748E8D2B02B9316 /* SWActivityIndicatorView.bundle */;
+			productReference = 5CADBBFE28AEAF98ED9D2776A8D6C1BA /* SWActivityIndicatorView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		6F67DE4E5D1BF9F3F3FFB304D7B06DD7 /* Pods-SWActivityIndicatorView Example_Tests */ = {
+		C4C52FA545B98BBEC6609A2F087DA6F7 /* Pods-SWActivityIndicatorView Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A802DB97E1189E3109DEED4129331A2 /* Build configuration list for PBXNativeTarget "Pods-SWActivityIndicatorView Example_Tests" */;
+			buildConfigurationList = B0E4FB5D852CBBAC1D73DE9F69CEA7E0 /* Build configuration list for PBXNativeTarget "Pods-SWActivityIndicatorView Example" */;
 			buildPhases = (
-				67614DBF19024546311F47C41126CA46 /* Sources */,
-				AC90253068ACFB1781808F2162233704 /* Frameworks */,
-				A1D37D6B94C69842AE7A8E0D6CE9B008 /* Headers */,
+				CE98B34FCA16CDFFA16061EEB23B8E88 /* Sources */,
+				EA208A808009DADA5DF08641D501EB27 /* Frameworks */,
+				6589E8CEE75393E88B2A690663D19F74 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6172B78349946F26E23AEB9AF1CDC0B7 /* PBXTargetDependency */,
-			);
-			name = "Pods-SWActivityIndicatorView Example_Tests";
-			productName = "Pods-SWActivityIndicatorView Example_Tests";
-			productReference = 985F717EE5C305F0AC673875B407A386 /* Pods_SWActivityIndicatorView_Example_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CFCFF584725D9627FF22ABC53529F964 /* SWActivityIndicatorView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 67977B5CAC45340BFA2DF42156338FBD /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView" */;
-			buildPhases = (
-				9B4201C82A8C2B7490924C27BD09F96D /* Sources */,
-				62DBE64F1AFBA8E1E1BACDA7C22430BB /* Frameworks */,
-				3158669ABB7EC861F016E271CF6B645D /* Resources */,
-				506DAC6FD0FDA4116947F75C2ED40259 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04B20D2E95F6A7C9B38092133DAD77AD /* PBXTargetDependency */,
-			);
-			name = SWActivityIndicatorView;
-			productName = SWActivityIndicatorView;
-			productReference = 456364DBEF17F52141DD21C08C6C0CFC /* SWActivityIndicatorView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DC54600628A22C40CD38CC4F8E10724D /* Pods-SWActivityIndicatorView Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 841FA23DB174FFB45B7945F1FA5C244C /* Build configuration list for PBXNativeTarget "Pods-SWActivityIndicatorView Example" */;
-			buildPhases = (
-				E6FED7C70318F61714398F3C7A2F2162 /* Sources */,
-				3E19FA10A726D31D104BD540965F3D4A /* Frameworks */,
-				1DDD2B67F80CB81CFE30E5DAA005A8D5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D82C1AA0E30883140E52A27431F5BD92 /* PBXTargetDependency */,
+				BD6ED74D0FDA568B9508238DCD2CCD65 /* PBXTargetDependency */,
 			);
 			name = "Pods-SWActivityIndicatorView Example";
 			productName = "Pods-SWActivityIndicatorView Example";
-			productReference = AF44A515CEA69CD6C72E49D1E81F1EC5 /* Pods_SWActivityIndicatorView_Example.framework */;
+			productReference = 7BCC211B24D06785CC3AC1E7843ECBB9 /* Pods_SWActivityIndicatorView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -354,7 +354,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -365,28 +365,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 09D2503C610A603FBF7620E624081AA3 /* Products */;
+			productRefGroup = 257584935C8F8179337E23CC6F2A4D6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC54600628A22C40CD38CC4F8E10724D /* Pods-SWActivityIndicatorView Example */,
-				6F67DE4E5D1BF9F3F3FFB304D7B06DD7 /* Pods-SWActivityIndicatorView Example_Tests */,
-				CFCFF584725D9627FF22ABC53529F964 /* SWActivityIndicatorView */,
-				684348FC23FC57F6C69CA21C5A5CC6D4 /* SWActivityIndicatorView-SWActivityIndicatorView */,
+				C4C52FA545B98BBEC6609A2F087DA6F7 /* Pods-SWActivityIndicatorView Example */,
+				328DDD0BFCC08A5499CE2CD41AECF5D4 /* Pods-SWActivityIndicatorView Example_Tests */,
+				2E6DEAD7C12FF11AEBCE51ACCF14AB7C /* SWActivityIndicatorView */,
+				9A1548C762B18493829C556F6616532E /* SWActivityIndicatorView-SWActivityIndicatorView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3158669ABB7EC861F016E271CF6B645D /* Resources */ = {
+		2173FF26D387FB1DA642B4077B20F7CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABF8C2568B9D5E8CDD231316873E8A3 /* SWActivityIndicatorView.bundle in Resources */,
+				F87E37D534D7511302FFEC9C1E2418F4 /* SWActivityIndicatorView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE5A8DD51F5C776EA5489E2D9742A82 /* Resources */ = {
+		63B64FC35BE0B9DE4B3B460F0078BB96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,119 +396,71 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67614DBF19024546311F47C41126CA46 /* Sources */ = {
+		21AF336E69D942B3FE6F4ADA60DC5327 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E58D62C45B047C368E7881DF023949C /* Pods-SWActivityIndicatorView Example_Tests-dummy.m in Sources */,
+				1B2A8D7CFD8905E288F58F066109732C /* SWActivityIndicatorView-dummy.m in Sources */,
+				4A5DC7A88EEFBA062BEE7A46C8AE16E1 /* SWActivityIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B4201C82A8C2B7490924C27BD09F96D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C0E476751495B6F65D77306499DEDEC /* SWActivityIndicatorView-dummy.m in Sources */,
-				53FA3712F0E45C36ABA0A2362F5CE9DD /* SWActivityIndicatorView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5D797FF93144E95583E9D8F3E26A07F /* Sources */ = {
+		2F272251F1F473B32B64E86F70217619 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6FED7C70318F61714398F3C7A2F2162 /* Sources */ = {
+		730C0F7D8D7ED5B8F93F0DFFA8CC8BDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE47C5007A2C0687F6644D5E0CDFD17 /* Pods-SWActivityIndicatorView Example-dummy.m in Sources */,
+				52E71F2156E484B292412517DF40B941 /* Pods-SWActivityIndicatorView Example_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE98B34FCA16CDFFA16061EEB23B8E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25A4A32D60A677802D50EA5B62FB708 /* Pods-SWActivityIndicatorView Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04B20D2E95F6A7C9B38092133DAD77AD /* PBXTargetDependency */ = {
+		BD6ED74D0FDA568B9508238DCD2CCD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWActivityIndicatorView;
+			target = 2E6DEAD7C12FF11AEBCE51ACCF14AB7C /* SWActivityIndicatorView */;
+			targetProxy = 743FC55127E77A282D4DFB785224517C /* PBXContainerItemProxy */;
+		};
+		BEDFB979E3C846F07940D98A8C4AEFB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SWActivityIndicatorView-SWActivityIndicatorView";
-			target = 684348FC23FC57F6C69CA21C5A5CC6D4 /* SWActivityIndicatorView-SWActivityIndicatorView */;
-			targetProxy = A75C82C9FBE2CB77401F2447190C7408 /* PBXContainerItemProxy */;
-		};
-		6172B78349946F26E23AEB9AF1CDC0B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SWActivityIndicatorView;
-			target = CFCFF584725D9627FF22ABC53529F964 /* SWActivityIndicatorView */;
-			targetProxy = 21583F476D5DA557591ACBFECC773E1D /* PBXContainerItemProxy */;
-		};
-		D82C1AA0E30883140E52A27431F5BD92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SWActivityIndicatorView;
-			target = CFCFF584725D9627FF22ABC53529F964 /* SWActivityIndicatorView */;
-			targetProxy = B452E8EDF1202E3F8C9A8763A492AA48 /* PBXContainerItemProxy */;
+			target = 9A1548C762B18493829C556F6616532E /* SWActivityIndicatorView-SWActivityIndicatorView */;
+			targetProxy = 27137003873CF8B07E1480DCB201AACC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		228BFC4E80CE5A27FB1C2A1AACA71889 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A04638DB8A66F7DC5C7EE63FE7FE216A /* SWActivityIndicatorView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SWActivityIndicatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		3F147EDAA013A454B2DD988C93F91EAB /* Release */ = {
+		288CA9ED74E15CF2DFB42101C6A3E0F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7EA70174EB0691F320C1A8A63FB513D5 /* Pods-SWActivityIndicatorView Example_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -519,6 +471,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_SWActivityIndicatorView_Example_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -528,10 +481,63 @@
 			};
 			name = Release;
 		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		2F924D926ADFC2DA24C111E4CFFA18D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C97FE32DBD3EEC0418B4E37DBDD781 /* Pods-SWActivityIndicatorView Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWActivityIndicatorView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81DF2E8EFC8C6DD492EFCA1242ED971C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9F2EC8582399A05D5C877924E3E21D /* SWActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SWActivityIndicatorView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/ResourceBundle-SWActivityIndicatorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SWActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -545,11 +551,54 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -562,150 +611,27 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9106B715F04340EBD45AAB5F14E934F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A04638DB8A66F7DC5C7EE63FE7FE216A /* SWActivityIndicatorView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SWActivityIndicatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BA31BCA88C1850655A2F5EEBBB244EF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38C97FE32DBD3EEC0418B4E37DBDD781 /* Pods-SWActivityIndicatorView Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SWActivityIndicatorView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C704B8786A6B58FF034965FCB8DFCF19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A04638DB8A66F7DC5C7EE63FE7FE216A /* SWActivityIndicatorView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SWActivityIndicatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E8D30262D735D2E04913760BE282EF44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A04638DB8A66F7DC5C7EE63FE7FE216A /* SWActivityIndicatorView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SWActivityIndicatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F082A9DDA692D92DE7915AA47A06E0BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B5BBEF5A9318D45B0ECA2FE45A60035 /* Pods-SWActivityIndicatorView Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SWActivityIndicatorView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F78800BC7D54F48F923E4AE8D3ABD25B /* Debug */ = {
+		A39E1A150673E8AE1F122217395CEE84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFE92379D422C49DE9537B768824682 /* Pods-SWActivityIndicatorView Example_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -716,7 +642,108 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_SWActivityIndicatorView_Example_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB6A4A9067673A176E32A65C9D81658F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9F2EC8582399A05D5C877924E3E21D /* SWActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5FD649747AEC37C8717AD45721C1DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9F2EC8582399A05D5C877924E3E21D /* SWActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E88EA87C56BFF5CF0AB85265F827616C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5BBEF5A9318D45B0ECA2FE45A60035 /* Pods-SWActivityIndicatorView Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWActivityIndicatorView Example/Pods-SWActivityIndicatorView Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWActivityIndicatorView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -726,50 +753,67 @@
 			};
 			name = Debug;
 		};
+		F3BB21B0D3F631931B1E46A40AC2CC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9F2EC8582399A05D5C877924E3E21D /* SWActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SWActivityIndicatorView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/ResourceBundle-SWActivityIndicatorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SWActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A802DB97E1189E3109DEED4129331A2 /* Build configuration list for PBXNativeTarget "Pods-SWActivityIndicatorView Example_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F78800BC7D54F48F923E4AE8D3ABD25B /* Debug */,
-				3F147EDAA013A454B2DD988C93F91EAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67977B5CAC45340BFA2DF42156338FBD /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView" */ = {
+		3AFB5A87CC918CD5EA48A5CC9B7CFE66 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8D30262D735D2E04913760BE282EF44 /* Debug */,
-				9106B715F04340EBD45AAB5F14E934F6 /* Release */,
+				B5FD649747AEC37C8717AD45721C1DC0 /* Debug */,
+				AB6A4A9067673A176E32A65C9D81658F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841FA23DB174FFB45B7945F1FA5C244C /* Build configuration list for PBXNativeTarget "Pods-SWActivityIndicatorView Example" */ = {
+		3DDD850369DFAF8EE0A63AEEAA709635 /* Build configuration list for PBXNativeTarget "Pods-SWActivityIndicatorView Example_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F082A9DDA692D92DE7915AA47A06E0BB /* Debug */,
-				BA31BCA88C1850655A2F5EEBBB244EF5 /* Release */,
+				A39E1A150673E8AE1F122217395CEE84 /* Debug */,
+				288CA9ED74E15CF2DFB42101C6A3E0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9279551CD03B612D561AB236766A016B /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView-SWActivityIndicatorView" */ = {
+		9C9132F37EBCEDC13458E01F1EDEED26 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView-SWActivityIndicatorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				228BFC4E80CE5A27FB1C2A1AACA71889 /* Debug */,
-				C704B8786A6B58FF034965FCB8DFCF19 /* Release */,
+				81DF2E8EFC8C6DD492EFCA1242ED971C /* Debug */,
+				F3BB21B0D3F631931B1E46A40AC2CC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E4FB5D852CBBAC1D73DE9F69CEA7E0 /* Build configuration list for PBXNativeTarget "Pods-SWActivityIndicatorView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88EA87C56BFF5CF0AB85265F827616C /* Debug */,
+				2F924D926ADFC2DA24C111E4CFFA18D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,12 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'SWActivityIndicatorView Example', :exclusive => true do
+target 'SWActivityIndicatorView Example' do
   pod "SWActivityIndicatorView", :path => "../"
-end
-
-target 'SWActivityIndicatorView Example_Tests', :exclusive => true do
-  pod "SWActivityIndicatorView", :path => "../"
-
   
+  target 'SWActivityIndicatorView Example_Tests' do
+      inherit! :search_paths
+  end
 end

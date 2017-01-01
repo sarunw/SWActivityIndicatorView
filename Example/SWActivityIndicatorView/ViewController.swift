@@ -12,11 +12,11 @@ import SWActivityIndicatorView
 class ViewController: UIViewController {
     @IBOutlet weak var activityIndicatorView: SWActivityIndicatorView!
 
-    @IBAction func didTapStop(sender: AnyObject) {
+    @IBAction func didTapStop(_ sender: AnyObject) {
         self.activityIndicatorView.stopAnimating()
     }
     
-    @IBAction func didTapChangeLineWidth(sender: AnyObject) {
+    @IBAction func didTapChangeLineWidth(_ sender: AnyObject) {
         let lineWidth = self.activityIndicatorView.lineWidth
         if lineWidth == 2 {
             self.activityIndicatorView.lineWidth = 4
@@ -25,16 +25,16 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func didTapChangeColor(sender: AnyObject) {
+    @IBAction func didTapChangeColor(_ sender: AnyObject) {
         let color = self.activityIndicatorView.color
-        if color == UIColor.lightGrayColor() {
-            self.activityIndicatorView.color = UIColor.redColor()
+        if color == UIColor.lightGray {
+            self.activityIndicatorView.color = UIColor.red
         } else {
-            self.activityIndicatorView.color = UIColor.lightGrayColor()
+            self.activityIndicatorView.color = UIColor.lightGray
         }
     }
     
-    @IBAction func didTapStart(sender: AnyObject) {
+    @IBAction func didTapStart(_ sender: AnyObject) {
         self.activityIndicatorView.startAnimating()
     }
 }
